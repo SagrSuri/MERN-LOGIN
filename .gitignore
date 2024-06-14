@@ -1,0 +1,41 @@
+# Node.js dependencies
+/node_modules
+
+# Production build
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+
+# IDEs
+.vscode
+.idea
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor specific files
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+
+# Optional - Uncomment these lines if you use TypeScript
+# TypeScript build output
+# /dist
+
+# Optional - Uncomment if you use Jest for testing
+# Jest coverage output
+# /coverage
