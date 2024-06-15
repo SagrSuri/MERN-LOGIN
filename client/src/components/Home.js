@@ -29,7 +29,7 @@ function Home() {
       }
       setLoading(false);
     } catch (error) {
-      navigate("/signin");
+      navigate("/MERN-LOGIN/signin");
       setLoading(false);
     }
   }
@@ -43,7 +43,7 @@ function Home() {
         withCredentials: true
       });
       if (response.data.success) {
-        navigate("/signin");
+        navigate("/MERN-LOGIN/signin");
       }
       setLogoutloading(false);
     } catch (error) {

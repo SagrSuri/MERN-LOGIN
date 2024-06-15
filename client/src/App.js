@@ -13,13 +13,13 @@ import PageNotFound from './components/PageNotFound';
 function App() {
   return (
     <div className="App h-[100vh] flex justify-center items-center"> {/* Apply CSS classes */}
-      <Routes basename={process.env.PUBLIC_URL}> {/* Use Routes with basename from environment */}
-        <Route path="/" element={<Home />} /> {/* Define route for Home component */}
-        <Route path="/signin" element={<SignIn />} /> {/* Define route for SignIn component */}
-        <Route path="/signup" element={<SignUp />} /> {/* Define route for SignUp component */}
-        <Route path="/forgot-password" element={<ForgotPassword />} /> {/* Define route for ForgotPassword component */}
-        <Route path="/reset-password/:resetPasswordToken" element={<ResetPassword />} /> {/* Define route for ResetPassword component */}
-        <Route path="*" element={<PageNotFound />} /> {/* Define route for PageNotFound component */}
+      <Routes basename='/'> {/* Use Routes with basename from environment */}
+        <Route path="/MERN-LOGIN/" element={<Home />} /> {/* Define route for Home component */}
+        <Route path="/MERN-LOGIN/signin" element={<SignIn />} /> {/* Define route for SignIn component */}
+        <Route path="/MERN-LOGIN/signup" element={<SignUp />} /> {/* Define route for SignUp component */}
+        <Route path="/MERN-LOGIN/forgot-password" element={<ForgotPassword />} /> {/* Define route for ForgotPassword component */}
+        <Route path="/MERN-LOGIN/reset-password/:resetPasswordToken" element={<ResetPassword />} /> {/* Define route for ResetPassword component */}
+        <Route path="/MERN-LOGIN/*" element={<PageNotFound />} /> {/* Define route for PageNotFound component */}
       </Routes>
     </div>
   );

@@ -117,9 +117,9 @@ function ResetPassword() {
 
         {/* signIn  */}
         <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
-          Go to{" "}
+          Go to{"/MERN-LOGIN/"}
           <Link
-            to="/signin"
+            to="/MERN-LOGIN/signin"
             className="text-blue-700 hover:underline dark:text-blue-500"
           >
             Sign in

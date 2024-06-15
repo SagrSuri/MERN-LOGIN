@@ -26,7 +26,7 @@ function SignUp() {
 
       // the withCredentials property to 'true'. This tells the browser to include any cookies associated with the current domain in the request.
       if (response.data.success) {
-        navigate("/signin");
+        navigate("/MERN-LOGIN/signin");
       }
       setLoading(false);
     } catch (error) {
@@ -162,7 +162,7 @@ function SignUp() {
         <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
           Alerady have an account?{" "}
           <Link
-            to="/signin"
+            to="/MERN-LOGIN/signin"
             className="text-blue-700 hover:underline dark:text-blue-500"
           >
             Sign In

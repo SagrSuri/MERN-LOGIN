@@ -21,7 +21,7 @@ function ForgotPassword() {
       });
 
       if (response.data.success) {
-        navigate('/reset-password/' + response.data.token);
+        navigate('/MERN-LOGIN/reset-password/' + response.data.token);
       }
       setLoading(false);
     } catch (error) {
@@ -91,7 +91,7 @@ function ForgotPassword() {
         <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
           Go to{' '}
           <Link
-            to="/signin"
+            to="/MERN-LOGIN/signin"
             className="text-blue-700 hover:underline dark:text-blue-500"
           >
             Sign in

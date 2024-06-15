@@ -20,7 +20,7 @@ function SignIn() {
         data: credentials
       });
       if (response.data.success) {
-        navigate("/");
+        navigate("/MERN-LOGIN/");
       }
       setLoading(false);
     } catch (error) {
@@ -84,7 +84,7 @@ function SignIn() {
         {/*  forgot-password */}
         <div className="flex items-start">
           <Link
-            to="/forgot-password"
+            to="/MERN-LOGIN/forgot-password"
             className="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500"
           >
             Forgot Password?
@@ -126,7 +126,7 @@ function SignIn() {
         <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
           Not registered?{" "}
           <Link
-            to="/signup"
+            to="/MERN-LOGIN/signup"
             className="text-blue-700 hover:underline dark:text-blue-500"
           >
             Create account
