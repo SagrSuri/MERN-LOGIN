@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MERN-LOGIN/static/css/main.72e1e78f.css",
-    "main.js": "/MERN-LOGIN/static/js/main.57ebbf3a.js",
+    "main.css": "/MERN-LOGIN/static/css/main.6b76260b.css",
+    "main.js": "/MERN-LOGIN/static/js/main.9c9c2f83.js",
     "index.html": "/MERN-LOGIN/index.html",
-    "main.72e1e78f.css.map": "/MERN-LOGIN/static/css/main.72e1e78f.css.map",
-    "main.57ebbf3a.js.map": "/MERN-LOGIN/static/js/main.57ebbf3a.js.map"
+    "main.6b76260b.css.map": "/MERN-LOGIN/static/css/main.6b76260b.css.map",
+    "main.9c9c2f83.js.map": "/MERN-LOGIN/static/js/main.9c9c2f83.js.map"
   },
   "entrypoints": [
-    "static/css/main.72e1e78f.css",
-    "static/js/main.57ebbf3a.js"
+    "static/css/main.6b76260b.css",
+    "static/js/main.9c9c2f83.js"
   ]
 }
