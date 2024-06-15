@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App  h-[100vh]  flex justify-center items-center">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/MERN-LOGIN" element={<Home />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
