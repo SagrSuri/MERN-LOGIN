@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://sagrsuri.github.io/MERN-LOGIN/static/css/main.d6ac7eca.css",
-    "main.js": "https://sagrsuri.github.io/MERN-LOGIN/static/js/main.e1293873.js",
+    "main.js": "https://sagrsuri.github.io/MERN-LOGIN/static/js/main.1e105e72.js",
     "index.html": "https://sagrsuri.github.io/MERN-LOGIN/index.html",
     "main.d6ac7eca.css.map": "https://sagrsuri.github.io/MERN-LOGIN/static/css/main.d6ac7eca.css.map",
-    "main.e1293873.js.map": "https://sagrsuri.github.io/MERN-LOGIN/static/js/main.e1293873.js.map"
+    "main.1e105e72.js.map": "https://sagrsuri.github.io/MERN-LOGIN/static/js/main.1e105e72.js.map"
   },
   "entrypoints": [
     "static/css/main.d6ac7eca.css",
-    "static/js/main.e1293873.js"
+    "static/js/main.1e105e72.js"
   ]
 }
