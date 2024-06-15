@@ -24,7 +24,7 @@ function ResetPassword() {
 
       if (response.data.success) {
         alert(response.data.message);
-        navigate("/signin");
+        navigate("/MERN-LOGIN/signin");
       }
       setLoading(false);
     } catch (error) {
